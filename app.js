@@ -15,5 +15,5 @@ btn.addEventListener('click', function(){
 // How to get random number from ###ARRAY. thus create a function that
 // will generate the number between 0 and 3
 function getRandomNumber() {
-    return Math.random() * colors.length;
+    return Math.floor(Math.random() * colors.length);
 }
